@@ -1,0 +1,54 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #e7f0d1; /* hijau muda alami */
+  color: #2c3e50; /* biru gelap */
+}
+
+header {
+  background-color: #2e8b57; /* hijau daun */
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: "⛰️ ";
+  margin-right: 8px;
+}
+
+footer {
+  background-color: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
